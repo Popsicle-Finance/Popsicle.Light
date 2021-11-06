@@ -1,0 +1,38 @@
+.tooltip {
+  position: relative;
+}
+
+.tooltip:hover::before {
+  content: attr(tooltip) !important;
+  position: absolute;
+
+  background: #2c2c2c;
+  font-size: 13px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  width: max-content;
+  height: max-content;
+
+  max-width: 120px;
+  text-align: left;
+
+  z-index: 999;
+}
+
+.tooltip.top:hover::before {
+  bottom: calc(100% + 10px) !important;
+}
+
+.tooltip.bottom:hover::before {
+  top: calc(100% + 10px) !important;
+}
+
+.tooltip.right:hover::before {
+  right: 0 !important;
+}
+
+.tooltip.left:hover::before {
+  left: 0 !important;
+}

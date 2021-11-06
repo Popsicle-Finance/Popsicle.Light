@@ -1,0 +1,46 @@
+{
+  "BSC_CHAIN": {
+    "chainId": "0x38",
+    "chainName": "Smart Chain",
+
+    "rpcUrls": [
+      "https://bsc-dataseed1.defibit.io/",
+      "https://bsc-dataseed1.ninicoin.io/",
+      "https://bsc-dataseed.binance.org/"
+    ],
+
+    "iconUrls": ["https://bscscan.com/images/svg/brands/bnb.svg?v=1.3"],
+
+    "blockExplorerUrls": ["https://bscscan.com/"],
+
+    "nativeCurrency": {
+      "name": "Binance Coin",
+      "symbol": "BNB",
+      "decimals": 18
+    }
+  },
+
+  "FTM_CHAIN": {
+    "chainId": "0xfa",
+    "chainName": "Fantom Opera Mainnet",
+
+    "rpcUrls": [
+      "https://rpcapi.fantom.network/",
+      "https://rpc.fantom.network/"
+    ],
+
+    "iconUrls": ["https://ftmscan.com/images/logo-ftmscan.svg?v=0.0.2"],
+
+    "blockExplorerUrls": ["https://ftmscan.com/"],
+
+    "nativeCurrency": {
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18
+    }
+  },
+
+  "ETH_CHAIN": {
+    "chainId": "0x1"
+  }
+}
